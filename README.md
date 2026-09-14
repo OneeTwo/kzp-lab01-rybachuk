@@ -35,25 +35,25 @@ Linux / macOS:
 
 ./mvnw verify
 ./mvnw package
-Run
+## Run
 java -jar target/lab01-1.0.0.jar
 
-Custom input and output:
+## Custom input and output:
 
 java -jar target/lab01-1.0.0.jar --input data/input.csv --output out/report.txt
 
-Help:
+## Help:
 
 java -jar target/lab01-1.0.0.jar --help
 
-Version:
+## Version:
 
 java -jar target/lab01-1.0.0.jar --version
-Testing
+## Testing
 
 The project uses JUnit 5 and SpotBugs.
 
-GitHub Actions verifies the project on:
+## GitHub Actions verifies the project on:
 
 Ubuntu
 Windows
